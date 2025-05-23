@@ -4,23 +4,19 @@
 
 Nome completo: 
 Jefferson Saldanha da Silva
-
+---
 Curso e semestre:
 Gestão da tecnologia da informação / 5 semestre
-
-**Descrição da experiência com a disciplina:**  
-Escreva aqui um parágrafo breve falando sobre sua experiência com a disciplina de Quality Assurance, o que você achou, o que mais gostou e quais desafios encontrou.
-
+---
+Descrição da experiência com a disciplina:
+---
 Durante o semestre, a disciplina de Quality Assurance me proporcionou uma visão clara sobre a importância da garantia da qualidade no desenvolvimento de software. Aprendi conceitos essenciais que vão desde os tipos de testes até a automação e integração contínua, o que me ajudou a entender como assegurar a confiabilidade dos sistemas. O que mais me chamou atenção foi a aplicabilidade prática dos testes, que torna o processo de desenvolvimento mais eficiente e seguro. Apesar de alguns conceitos terem sido desafiadores no início, a prática constante facilitou o aprendizado e a consolidação do conteúdo.
 ---
-
 ## 2. O que é Quality Assurance (QA)?
 
 Quality Assurance, ou Garantia da Qualidade, é um conjunto de práticas que garantem que o software desenvolvido atende aos requisitos esperados e funciona corretamente. O QA é importante porque ajuda a evitar erros, melhorar a confiabilidade do sistema e garantir a satisfação do usuário final. Em linguagem simples, é como um "controle de qualidade" que verifica se tudo está funcionando bem antes de entregar o produto.
-
 ---
 ## 3. Conceitos Aprendidos Durante o Semestre
-
 Durante o semestre, aprendi diversos conceitos fundamentais de QA, entre eles:
 
 - **Qualidade em software e cultura de qualidade:** Entendi a importância de criar uma cultura que valorize a qualidade desde as etapas iniciais do desenvolvimento, envolvendo toda a equipe para garantir um produto final confiável.
@@ -34,7 +30,6 @@ Durante o semestre, aprendi diversos conceitos fundamentais de QA, entre eles:
 - **Automação de testes e CI/CD:** Entendi como automatizar testes e integrá-los em pipelines de integração e entrega contínua, agilizando a validação do software.
 
 - **Monitoramento e controle de qualidade:** Aprendi sobre o uso de métricas, rastreamento de bugs e práticas de observabilidade para manter a qualidade durante todo o ciclo de vida do software.
-
 ---
 
 ## 4. Ferramentas e Sites Utilizados
@@ -43,14 +38,29 @@ Durante o semestre, aprendi diversos conceitos fundamentais de QA, entre eles:
 - [https://github.com/](https://github.com/)  
 - [/mistral.ai/](https://mistral.ai/)
 - [https://code.visualstudio.com/)
-
+  
 
 ## 5. Explicação dos Testes Entregues
-
-
+Teste 01 – Verificação de status da API ReqRes
+Biblioteca: requests
+Objetivo: Verificar se o endpoint da API ReqRes retorna o status HTTP 200, indicando que o serviço está ativo e funcionando.
+Resultado esperado: O teste passa se o código de status HTTP retornado for 200.
+Arquivo: testes/teste_01.py
 ---
-
+Teste 02 – Teste de soma simples
+Biblioteca: Python padrão
+Objetivo: Validar que a função de soma retorna corretamente o resultado da soma de dois números inteiros.
+Resultado esperado: O teste passa se a soma retornada estiver correta, como 2 + 3 = 5.
+Arquivo: testes/teste_02.py
+---
+Teste 03 – Teste unitário de multiplicação
+Biblioteca: unittest
+Objetivo: Testar a função de multiplicação para garantir que funciona corretamente com números positivos, negativos e zero.
+Resultado esperado: O teste passa se todos os casos de multiplicação retornarem os resultados esperados.
+Arquivo: testes/teste_03.py
+---
 ## 6. Conclusão Final
+Ao longo da disciplina, o que mais aprendi de importante foi a relevância da garantia da qualidade para garantir que o software funcione corretamente e atenda às expectativas dos usuários. Entendi que testes bem planejados e executados são essenciais para evitar falhas e retrabalho. Vejo a área de QA como uma oportunidade profissional muito promissora, pois a qualidade do software é uma demanda constante em qualquer projeto e indústria. O tema que mais chamou minha atenção foi a automação de testes, porque ela torna o processo mais rápido, eficiente e confiável, além de possibilitar a integração contínua, que é fundamental para o desenvolvimento ágil.
 
-Durante o curso, o que mais me marcou foi a importância da automação dos testes para garantir a qualidade contínua do software, o que me fez perceber como a área de QA é essencial no processo de desenvolvimento. Vejo a área de QA como uma carreira promissora e estratégica para o futuro profissional, especialmente por seu papel na prevenção de erros e na melhoria da experiência do usuário. O tema que mais chamou minha atenção foi a integração dos testes automatizados em pipelines de CI/CD, pois acelera o ciclo de desenvolvimento e aumenta a confiabilidade do produto final.
+
 
