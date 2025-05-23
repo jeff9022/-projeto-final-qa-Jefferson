@@ -51,13 +51,13 @@ Teste 02 – Cálculo de média com pytest
 Biblioteca: pytest
 Objetivo: Verificar se a função calcula_media retorna a média correta de uma lista de números, incluindo casos com números positivos, negativos, decimais, um único valor e tratamento de lista vazia (erro).
 Resultado esperado: O teste passa se a função calcular corretamente a média em todos os casos testados e lançar erro ao receber lista vazia.
-Arquivo: 
+Arquivo: https://colab.research.google.com/drive/1BRL__HY2XKq1VzNaq5qKDq_hp3S5X1nM?usp=sharing
 ---
 Teste 03 – Teste unitário de multiplicação
 Biblioteca: unittest
 Objetivo: Testar a função de multiplicação para garantir que funciona corretamente com números positivos, negativos e zero.
 Resultado esperado: O teste passa se todos os casos de multiplicação retornarem os resultados esperados.
-Arquivo: testes/teste_03.py
+Arquivo: 
 ---
 ## 6. Conclusão Final
 Ao longo da disciplina, o que mais aprendi de importante foi a relevância da garantia da qualidade para garantir que o software funcione corretamente e atenda às expectativas dos usuários. Entendi que testes bem planejados e executados são essenciais para evitar falhas e retrabalho. Vejo a área de QA como uma oportunidade profissional muito promissora, pois a qualidade do software é uma demanda constante em qualquer projeto e indústria. O tema que mais chamou minha atenção foi a automação de testes, porque ela torna o processo mais rápido, eficiente e confiável, além de possibilitar a integração contínua, que é fundamental para o desenvolvimento ágil.
