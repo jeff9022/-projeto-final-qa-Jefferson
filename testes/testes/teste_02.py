@@ -1,18 +1,21 @@
-import unittest
+def calcula_media(numeros):
+    if not numeros:
+        raise ValueError("A lista não pode ser vazia")
+    return sum(numeros) / len(numeros)
 
-# Função que já existia no sistema
-def somar(a, b):
-    return a + b
+def test_media_com_valores_positivos():
+    assert calcula_media([10, 20, 30]) == 20
 
-# Teste de regressão
-class TesteRegressaoSoma(unittest.TestCase):
+def test_media_com_um_valor():
+    assert calcula_media([5]) == 5
 
-    def test_soma_regressao(self):
-        # Testa se a função ainda soma corretamente após possíveis mudanças
-        self.assertEqual(somar(10, 5), 15)
-        self.assertEqual(somar(-3, 3), 0)
-        self.assertEqual(somar(0, 0), 0)
+def test_media_com_negativos():
+    assert calcula_media([-10, 0, 10]) == 0
 
-# Executa os testes
-if __name__ == '__main__':
-    unittest.main(argv=[''], exit=False)
+def test_media_lista_vazia():
+    import pytest
+    with pytest.raises(ValueError):
+        calcula_media([])
+
+def test_media_com_valores_flutuantes():
+    assert calcula_media([1.5, 2.5, 3.5]) == pytest.approx(2.5)
