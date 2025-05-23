@@ -47,11 +47,11 @@ Objetivo: Verificar se o endpoint da API ReqRes retorna o status HTTP 200, indic
 Resultado esperado: O teste passa se o código de status HTTP retornado for 200.
 Arquivo: testes/teste_01.py
 ---
-Teste 02 – Teste de soma simples
-Biblioteca: Python padrão
-Objetivo: Validar que a função de soma retorna corretamente o resultado da soma de dois números inteiros.
-Resultado esperado: O teste passa se a soma retornada estiver correta, como 2 + 3 = 5.
-Arquivo: testes/teste_02.py
+Teste 02 – Cálculo de média com pytest
+Biblioteca: pytest
+Objetivo: Verificar se a função calcula_media retorna a média correta de uma lista de números, incluindo casos com números positivos, negativos, decimais, um único valor e tratamento de lista vazia (erro).
+Resultado esperado: O teste passa se a função calcular corretamente a média em todos os casos testados e lançar erro ao receber lista vazia.
+Arquivo: testes/teste_pytest_media.py
 ---
 Teste 03 – Teste unitário de multiplicação
 Biblioteca: unittest
