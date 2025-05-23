@@ -45,13 +45,13 @@ Teste 01 – Verificação de status da API ReqRes
 Biblioteca: requests
 Objetivo: Verificar se o endpoint da API ReqRes retorna o status HTTP 200, indicando que o serviço está ativo e funcionando.
 Resultado esperado: O teste passa se o código de status HTTP retornado for 200.
-Arquivo: testes/teste_01.py
+Arquivo: [testes/teste_01.py](https://colab.research.google.com/drive/1g_3GdDM1_QfVNkM7ng11e7pHZFx8cq4C?usp=sharing)
 ---
 Teste 02 – Cálculo de média com pytest
 Biblioteca: pytest
 Objetivo: Verificar se a função calcula_media retorna a média correta de uma lista de números, incluindo casos com números positivos, negativos, decimais, um único valor e tratamento de lista vazia (erro).
 Resultado esperado: O teste passa se a função calcular corretamente a média em todos os casos testados e lançar erro ao receber lista vazia.
-Arquivo: testes/teste_pytest_media.py
+Arquivo: 
 ---
 Teste 03 – Teste unitário de multiplicação
 Biblioteca: unittest
